@@ -2,7 +2,7 @@
   "name": "echarts-el",
   "version": "1.0.0",
   "description": "Echarts render in html customElements.",
-  "main": "dist/index.js",
+  "main": "dist/chart.js",
   "repository": "https://github.com/gsmlg-dev/echarts-el.git",
   "author": "Jonathan Gao",
   "license": "GPLv3",
