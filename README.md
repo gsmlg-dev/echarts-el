@@ -9,6 +9,62 @@
 - Auto fit parent element, so your do not need to resize it.
 - Rerender if data changed.
 
+# Install
+
+```bash
+npm install echarts-el
+```
+
+# Use Case
+
+```html
+<echarts-el>
+    {
+    tooltip: {
+      show: true,
+    },
+    grid: {
+      x: 0,
+      y: 0,
+      x2: 0,
+      y2: 0,
+    },
+    xAxis: [
+      {
+        min: 0,
+        scale: true,
+        type: 'value',
+      },
+    ],
+    yAxis: [
+      {
+        type: 'category',
+        show: false,
+        data: ['2021-01', '2021-02', '2021-03', '2021-04', '2021-05', '2021-06'],
+      },
+    ],
+    series: [
+      {
+        type: 'bar',
+        data: [2123, 3354, 4012, 2175, 5800, 2630],
+      },
+    ],
+  }
+</echarts-el>
+```
+
+# Attrinutes
+
+- `loading`: Show Loading chart
+- `renderer`: Use echarts `svg` or `canvas` renderer
+- `textContent`: EChart options.
+
+# Properties
+
+- `resetChart`: Method to reset chart render
+- `chart`: Echart instance
+- `options`: Chart render options, readonly.
+
 # TODO
 
 - Add esm bundle, support es2017 import on the fly.
