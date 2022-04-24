@@ -1,7 +1,7 @@
 import { create } from '@storybook/theming';
 
 export default create({
-  brandTitle: 'ZDNS',
-  brandUrl: 'https://cloud.zdns.cn',
-  brandImage: 'https://cloud.zdns.cn/img/logo.svg',
+  brandTitle: 'echarts-el',
+  brandUrl: 'https://gsmlg-dev.github.io/echarts-el',
+  brandImage: 'https://gsmlg.github.io/svg/gsmlg-dev.svg',
 });
