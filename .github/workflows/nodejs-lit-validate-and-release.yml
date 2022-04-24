@@ -72,7 +72,9 @@ jobs:
         run: npm run build
 
       - name: 🏗 Run install semantic-release
-        run: npm install --save-dev semantic-release @semantic-release/git @semantic-release/changelog
+        run:
+          npm install --save-dev semantic-release @semantic-release/git
+          @semantic-release/changelog
 
       - name: 🚀 Release
         env:

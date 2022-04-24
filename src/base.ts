@@ -55,7 +55,7 @@ export class ChartBase extends LitElement {
     super.attributeChangedCallback(name, _old, value);
     if (name === 'loading') {
       this.loading = value != null;
-      this.resetChart()
+      this.resetChart();
     }
   }
 

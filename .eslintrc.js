@@ -11,6 +11,7 @@ module.exports = {
   },
   rules: {
     'no-empty': 0,
+    'no-template-curly-in-string': 0,
     '@babel/new-cap': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-implicit-any-catch': 'off',
