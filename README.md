@@ -15,6 +15,10 @@
 npm install echarts-el
 ```
 
+Or import in the fly.
+
+
+
 # Use Case
 
 This element will fit parent element and auto resize when parent element size change.
@@ -72,5 +76,4 @@ Render chart:
 
 # TODO
 
-- Add esm bundle, support es2017 import on the fly.
 - Add map register element.
