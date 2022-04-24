@@ -55,6 +55,9 @@ This element will fit parent element and auto resize when parent element size ch
 </echarts-el>
 ```
 
+Render chart:
+![bar-chart](./bar-chart.jpg)
+
 # Attrinutes
 
 - `loading`: Show Loading chart
