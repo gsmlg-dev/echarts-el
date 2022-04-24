@@ -17,6 +17,15 @@ npm install echarts-el
 
 Or import in the fly.
 
+```html
+<script type="module">
+  import "https://unpkg.com/echarts-el@1.1.0/es/chart.js";
+</script>
+---
+<script type="module">
+  import "https://cdn.jsdelivr.net/npm/echarts-el@1.1.0/es/chart.js";
+</script>
+```
 
 
 # Use Case
