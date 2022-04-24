@@ -17,6 +17,8 @@ npm install echarts-el
 
 # Use Case
 
+This element will fit parent element and auto resize when parent element size change.
+
 ```html
 <echarts-el>
     {
@@ -57,7 +59,7 @@ npm install echarts-el
 
 - `loading`: Show Loading chart
 - `renderer`: Use echarts `svg` or `canvas` renderer
-- `textContent`: EChart options.
+- `textContent`: EChart options, JSON string.
 
 # Properties
 
