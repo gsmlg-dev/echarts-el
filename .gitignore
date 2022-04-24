@@ -122,3 +122,6 @@ yarn.lock
 
 # storybook build
 storybook-static
+
+# es bundle
+/es

@@ -33,7 +33,8 @@
     "typescript": "^4.6.3"
   },
   "files": [
-    "dist"
+    "dist",
+    "es"
   ],
   "publishConfig": {
     "access": "public"

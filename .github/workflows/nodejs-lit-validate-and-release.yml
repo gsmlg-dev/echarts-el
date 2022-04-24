@@ -71,6 +71,12 @@ jobs:
       - name: 🏗 Run build script
         run: npm run build
 
+      - name: Install esbuild
+        run: npm install -D esbuild
+
+      - name: Build bundle
+        run: npx esbuild --bundle --minify --format=esm src/chart.ts --outdir=es/
+
       - name: 🏗 Run install semantic-release
         run:
           npm install --save-dev semantic-release @semantic-release/git
