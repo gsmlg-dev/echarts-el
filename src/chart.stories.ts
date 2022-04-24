@@ -19,7 +19,7 @@ export interface ElementProps {
 // More on component templates: https://storybook.js.org/docs/web-components/writing-stories/introduction#using-args
 const Template: Story<ElementProps> = ({ width, height, loading, data }) =>
   html`<div style="width: ${width}; height: ${height};">
-    <g-chart ?loading=${loading}>${JSON.stringify(data)}</g-chart>
+    <echarts-el ?loading=${loading}>${JSON.stringify(data)}</echarts-el>
   </div>`;
 
 export const Top = Template.bind({});
