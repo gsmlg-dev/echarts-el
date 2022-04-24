@@ -1,6 +1,6 @@
 {
   "name": "echarts-el",
-  "version": "0.0.0-semantically-released",
+  "version": "1.0.0",
   "description": "Echarts render in html customElements.",
   "main": "dist/index.js",
   "repository": "https://github.com/gsmlg-dev/echarts-el.git",
@@ -19,6 +19,8 @@
   "devDependencies": {
     "@babel/core": "^7.17.9",
     "@gsmlg/scripts": "^1.15.0",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
     "@storybook/addon-actions": "^6.4.22",
     "@storybook/addon-essentials": "^6.4.22",
     "@storybook/addon-links": "^6.4.22",
@@ -27,6 +29,7 @@
     "@storybook/web-components": "^6.4.22",
     "@types/node": "^17.0.25",
     "babel-loader": "^8.2.4",
+    "semantic-release": "^19.0.2",
     "typescript": "^4.6.3"
   },
   "files": [
