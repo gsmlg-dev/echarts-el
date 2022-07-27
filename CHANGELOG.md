@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/gsmlg-dev/echarts-el/compare/v1.1.2...v1.1.3) (2022-07-27)
+
+
+### Bug Fixes
+
+* Update tsconfig.json. ([18b5e20](https://github.com/gsmlg-dev/echarts-el/commit/18b5e201088a2f489c6ada3fe234a501accfb8ee))
+
 ## [1.1.2](https://github.com/gsmlg-dev/echarts-el/compare/v1.1.1...v1.1.2) (2022-07-27)
 
 
