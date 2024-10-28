@@ -5,7 +5,7 @@
   "main": "dist/chart.js",
   "repository": "https://github.com/gsmlg-dev/echarts-el.git",
   "author": "Jonathan Gao",
-  "license": "GPLv3",
+  "license": "Apache-2.0",
   "private": false,
   "scripts": {
     "test": "gsmlg-scripts test",
